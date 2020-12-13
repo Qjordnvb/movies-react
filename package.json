@@ -34,18 +34,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ArnoldRestrepo/movies-and-series.git"
-  },
-  "keywords": [
-    "react"
-  ],
-  "author": "@restrepo_arnold",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ArnoldRestrepo/movies-and-series/issues"
-  },
-  "homepage": "https://github.com/ArnoldRestrepo/movies-and-series#readme"
+  ]
 }

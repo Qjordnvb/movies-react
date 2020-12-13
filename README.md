@@ -28,15 +28,3 @@ npm start
 
 - [React.js](https://reactjs.org/) - Libreria Javacript para construir interfaces.
 - [OMDBAPI](http://www.omdbapi.com/) - Api para realizar búsqueda de películas
-
-## Autor
-
-- **Arnold Restrepo** - [Arnold Restrepo - Frontend Developer](https://arnoldrestrepo.com)
-
-## Licencia
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Comentarios
-
-- Los comentarios, mejoras o tips son bienvenidos, todo en busca del aprendizaje continuo y la mejora en el software del proyecto, gracias

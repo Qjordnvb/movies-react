@@ -1,0 +1,13 @@
+/**
+* @name: Not Found Component Styles
+*/
+
+.NotFound-title {
+  padding: 1rem;
+}
+
+.NotFound-link {
+  color: var(--dark-blue);
+  text-align: center;
+  padding: 1rem;
+}

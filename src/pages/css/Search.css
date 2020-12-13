@@ -1,0 +1,99 @@
+/**
+* @name Search Page Styles
+*/
+
+.MovieHome {
+  text-align: center;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../../img/banner.jpg") !important;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 24rem;
+  width: 100%;
+  /* background-blend-mode: soft-light; */
+}
+
+.text-position {
+  margin-top: -6%;
+}
+
+.Header-logo {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: rgb(26, 25, 25);
+}
+
+.MovieHome-title {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  color: rgb(26, 25, 25);
+}
+
+.MovieHomeForm {
+  margin-top: -10%;
+}
+
+.MovieHomeForm-search:focus {
+  outline: none;
+  border-color: aliceblue;
+}
+
+.MovieHomeForm-search {
+  max-width: 500px;
+  min-width: 300px;
+  border-radius: 2rem;
+  padding: 8px;
+  border: 0;
+  background-color: rgb(214, 252, 252);
+}
+
+.MovieHomeForm-checkboxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-family: Montserrat;
+  font-weight: lighter;
+  padding-top: 1%;
+}
+
+.spacer {
+  padding-left: 0.5%;
+}
+
+.MovieHomeForm-checkboxes label {
+  padding: 0 0.5rem;
+}
+
+.MovieHome-results {
+  width: 100%;
+  padding: 1rem 0;
+  text-align: left;
+}
+
+.LoadMore {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.btn-large {
+  width: 12rem;
+  border-radius: 2rem;
+  transition: all 0.6s;
+}
+
+.btn-large:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}

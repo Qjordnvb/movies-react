@@ -1,0 +1,56 @@
+/**
+* @name: SearchList Component Styles
+*/
+
+.SearchList {
+  padding: 1rem 0;
+}
+
+.SearchListGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.SearchList-item {
+  background: var(--dark-blue);
+}
+
+.SearchList-item-info {
+  background: var(--dark-blue);
+  color: var(--white-blue);
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.ShowDetails {
+  padding: 0.5rem 0;
+  font-size: 14px;
+  text-align: center;
+  color: var(--white-blue);
+}
+
+/* Media Queries */
+@media screen and (max-width: 968px) {
+  .SearchListGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .SearchListGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .SearchListGrid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -4,7 +4,7 @@
   "description": "Aplicación para buscar películas y series",
   "main": "index.js",
   "private": true,
-  "homepage": "http://qjordnvb.github.io/movies-react",
+  "homepage": "https://movies-and-series-app.herokuapp.com/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

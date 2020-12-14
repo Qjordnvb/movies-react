@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "movies-app-6a087",
+    "headers": [
+      {
+        "source": "http://www.omdbapi.com/?apikey=${this.state.apiKey}&s=${this.state.query}&page=${this.state.nextPage}"
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

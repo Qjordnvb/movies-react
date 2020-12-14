@@ -59,7 +59,7 @@ class Search extends React.Component {
     this.setState({ loading: true, error: null });
     try {
       const response = await fetch(
-        `http://www.omdbapi.com/?apikey=${this.state.apiKey}&s=${this.state.query}&page=${this.state.nextPage}`
+        `https://www.omdbapi.com/?apikey=${this.state.apiKey}&s=${this.state.query}&page=${this.state.nextPage}`
       );
       const data = await response.json();
 

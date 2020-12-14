@@ -4,10 +4,7 @@
   "description": "Aplicación para buscar películas y series",
   "main": "index.js",
   "private": true,
-  "homepage": "http://qjordnvb.github.io/movies-react",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "npm-run-all -p client server",
     "client": "react-scripts start",
     "server": "json-server --port 8080 --watch server/db.json",
